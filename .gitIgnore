@@ -1,0 +1,17 @@
+# Dependency folders
+node_modules/
+**/node_modules/
+
+# Build folders
+dist/
+build/
+.turbo/
+
+# Environment files
+.env
+**/.env
+.env.local
+
+# Logs
+npm-debug.log*
+pm2.log

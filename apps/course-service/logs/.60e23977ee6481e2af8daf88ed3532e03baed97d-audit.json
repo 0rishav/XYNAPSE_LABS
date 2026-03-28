@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\.60e23977ee6481e2af8daf88ed3532e03baed97d-audit.json",
+    "files": [
+        {
+            "date": 1772088658965,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\exceptions-2026-02-26.log",
+            "hash": "1baf0d576f72ecaa341c1f004a20b58c8090153b58d1c61d0ef1cad0a3e21743"
+        },
+        {
+            "date": 1772177853551,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\exceptions-2026-02-27.log",
+            "hash": "22c082a4d075c70d4f957a48f80eb9f6f65db38064db7a4062a20ad79dea5b35"
+        },
+        {
+            "date": 1772266611456,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\exceptions-2026-02-28.log",
+            "hash": "99caba05ae1f027703ad3c394ad45346438ef62a107805d84e32ecdd89bbceb9"
+        },
+        {
+            "date": 1774680405419,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\exceptions-2026-03-28.log",
+            "hash": "338ef7fbc791efdc5400d344baaf5c1b4ffbd88944608c32088399b0cf08f77d"
+        }
+    ],
+    "hashType": "sha256"
+}

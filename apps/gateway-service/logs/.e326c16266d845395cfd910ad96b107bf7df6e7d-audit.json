@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\gateway-service\\logs\\.e326c16266d845395cfd910ad96b107bf7df6e7d-audit.json",
+    "files": [
+        {
+            "date": 1774594997742,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\gateway-service\\logs\\app-2026-03-27.log",
+            "hash": "605ae96339d126b8154da7f43ed4bf1291147d5085631fc3b5a4f4e3522039c4"
+        },
+        {
+            "date": 1774636753209,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\gateway-service\\logs\\app-2026-03-28.log",
+            "hash": "e75f024c04456238f2522a73c0b9a6caaea40f44a23fcdda09ae172c855d9724"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\.46531f6d00db73ff9a0c54b977670d4cc8d1403c-audit.json",
+    "files": [
+        {
+            "date": 1774680405399,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\app-2026-03-28.log",
+            "hash": "081830f873bfda19046463ea5fbb0b2845af07f451ace90ce592fd792031ae2e"
+        }
+    ],
+    "hashType": "sha256"
+}

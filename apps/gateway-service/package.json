@@ -1,0 +1,26 @@
+{
+  "name": "gateway-service",
+  "version": "1.0.0",
+  "description": "API Gateway for Xynapse Microservices",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@xynapse/common": "*",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "helmet": "^8.1.0",
+    "http-proxy-middleware": "^3.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

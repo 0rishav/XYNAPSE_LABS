@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\.47ab271f47b3a65370bd67eb190b577f6eadbfc6-audit.json",
+    "files": [
+        {
+            "date": 1774595050606,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\app-2026-03-27.log",
+            "hash": "5b5defa211ec57cc09837449c9fe08dfc0a348e8c244c11489818d48c730928c"
+        },
+        {
+            "date": 1774636783246,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\app-2026-03-28.log",
+            "hash": "1d6dc994a4f7f19b5908584d4ab08b2878e264a907c141e2845cd1bba8c0d374"
+        }
+    ],
+    "hashType": "sha256"
+}

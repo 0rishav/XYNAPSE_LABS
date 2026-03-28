@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship Application Status</title>
+    <style>
+      body { font-family: Arial, Helvetica, sans-serif; color: #222; }
+      .container { max-width: 640px; margin: 0 auto; padding: 24px; border: 1px solid #eee; border-radius: 12px; }
+      .title { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
+      .status { padding: 4px 8px; background: #f4f4f5; border-radius: 6px; display: inline-block; }
+      .footer { margin-top: 24px; font-size: 12px; color: #888; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Your internship application status was updated</div>
+      <p>Hi <strong><%= name %></strong>,</p>
+      <p>Your application for the <strong><%= internshipField %></strong> internship is now: <span class="status"><%= status %></span>.</p>
+      <% if (status === 'accepted') { %>
+        <p>Congratulations! Our team will contact you with next steps shortly.</p>
+      <% } else if (status === 'rejected') { %>
+        <p>Thank you for your interest. Unfortunately we won't be moving forward at this time. We appreciate your effort and encourage you to apply again in the future.</p>
+      <% } else { %>
+        <p>We will keep you posted on further updates.</p>
+      <% } %>
+      <div class="footer">This is an automated message. Please do not reply.</div>
+    </div>
+  </body>
+</html>

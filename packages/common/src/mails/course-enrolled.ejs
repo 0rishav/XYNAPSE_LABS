@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enrollment Confirmation</title>
+    <style>
+      body { font-family: Arial, Helvetica, sans-serif; background:#0f1724; color:#e5e7eb; margin:0; padding:0; }
+      .container { max-width: 640px; margin: 0 auto; background:#111827; border:1px solid #374151; border-radius:12px; padding:24px; }
+      .h1 { color:#ffffff; font-size:20px; margin:0 0 12px 0; }
+      .muted { color:#9ca3af; font-size:14px; }
+      .box { background:#0b1220; border:1px solid #253046; border-radius:10px; padding:14px 16px; }
+      .row { margin:8px 0; }
+      .label { color:#9ca3af; display:block; font-size:13px; }
+      .val { color:#e5e7eb; font-size:15px; font-weight:600; }
+      .footer { margin-top:18px; color:#9ca3af; font-size:12px; }
+      a { color:#60a5fa; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">You're enrolled! 🎉</h1>
+      <p class="muted">Hi <strong><%= name %></strong>,</p>
+      <p class="muted">Your enrollment has been confirmed. Here are your details:</p>
+
+      <div class="box">
+        <div class="row">
+          <span class="label">Course</span>
+          <span class="val"><%= courseName %></span>
+        </div>
+        <div class="row">
+          <span class="label">Plan</span>
+          <span class="val" style="text-transform:capitalize;"><%= plan %></span>
+        </div>
+        <div class="row">
+          <span class="label">Enrolled On</span>
+          <span class="val"><%= new Date(enrolledAt).toLocaleString() %></span>
+        </div>
+        <% if (organization) { %>
+        <div class="row">
+          <span class="label">Organization</span>
+          <span class="val"><%= organization %></span>
+        </div>
+        <% } %>
+      </div>
+
+      <p class="muted" style="margin-top:14px;">If you have any questions, just reply to this email—we're here to help.</p>
+
+      <p class="footer">Thanks,<br />The Upcoding Team</p>
+    </div>
+  </body>
+</html>
