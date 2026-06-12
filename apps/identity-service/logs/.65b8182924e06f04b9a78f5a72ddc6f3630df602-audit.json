@@ -14,6 +14,11 @@
             "date": 1781265405513,
             "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-06-12.log",
             "hash": "1b02086ba44da3c23ca6dd1d7745f9b9c02e42d3575e78a250f7fb1a5d06d307"
+        },
+        {
+            "date": 1781294155223,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-06-13.log",
+            "hash": "3280784056dc36014e82f4a7efa800db0b472d46b2995b2f878a1573a379f61a"
         }
     ],
     "hashType": "sha256"

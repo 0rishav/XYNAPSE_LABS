@@ -34,7 +34,7 @@ const startServer = async () => {
     await connectDB();
     console.log("Database connected!");
 
-    const allowedOrigins = [process.env.FRONTEND_URL, "http://localhost:5173"];
+    const allowedOrigins = ['https://lab.xynapsesystems.com', 'https://xynapsesystems.com', "http://localhost:5173"];
 
     const corsOptions = {
       origin: function (origin, callback) {

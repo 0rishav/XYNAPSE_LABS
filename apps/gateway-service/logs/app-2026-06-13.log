@@ -62,3 +62,4 @@
 {"level":"info","message":"::1 GET /api/v1/mcqQuestion/all?paperId=6a2c1738094029dadde818b4&page=1&limit=10 200 7138 - 137.649 ms","service":"mcqQuestion-service","timestamp":"2026-06-12T19:12:11.250Z"}
 {"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 200 2892 - 420.691 ms","service":"category-service","timestamp":"2026-06-12T19:12:11.470Z"}
 {"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 200 2892 - 175.623 ms","service":"category-service","timestamp":"2026-06-12T19:12:11.647Z"}
+{"level":"info","message":"::1 POST /api/v1/auth/login 200 378 - 941.938 ms","service":"auth-service","timestamp":"2026-06-12T19:57:47.672Z"}
