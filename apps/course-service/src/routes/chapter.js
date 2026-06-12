@@ -32,6 +32,13 @@ chapterRouter.get(
   getChaptersByCourse,
 );
 
+chapterRouter.get(
+  "/course/:courseId",
+  attachRequestId,
+  isAuthenticated,
+  getChaptersByCourse,
+);
+
 chapterRouter.get("/:id", attachRequestId, isAuthenticated, getChapterById);
 
 chapterRouter.post(

@@ -41,6 +41,7 @@ import {
 import { HTTP_STATUS } from "../../../../packages/common/src/constants/httpStatus.js";
 import { getPagination } from "../../../../packages/common/src/utils/paginationHelper.js";
 import logger from "../../../../packages/common/src/utils/logger.js";
+import { ERROR_CODES } from "../../../../packages/common/src/constants/errorCode.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

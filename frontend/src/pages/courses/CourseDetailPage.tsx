@@ -22,6 +22,7 @@ const CourseDetailPage = () => {
   const [chapters, setChapters] = useState<IChapter[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeChapter, setActiveChapter] = useState<string | null>(null);
+ 
 
   useEffect(() => {
     if (courseId) {
@@ -144,7 +145,7 @@ const CourseDetailPage = () => {
                     <ChapterAccordionItem
                       key={chapter._id}
                       chapter={chapter}
-                      courseId={courseId || ""} // useParams ya searchParams se aa raha courseId
+                      courseId={courseId || ""} 
                       isActive={activeChapter === chapter._id}
                       onToggle={() =>
                         setActiveChapter(

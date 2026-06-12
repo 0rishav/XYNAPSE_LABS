@@ -6,24 +6,14 @@
     "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\.e930785f92d3a3661cf5eb20e55a320bd7858a5b-audit.json",
     "files": [
         {
-            "date": 1772088658974,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-02-26.log",
-            "hash": "1dfc5791c1385a1508d9e24411f8a8af518d25c2f026ca1bdd3725ec56648e91"
+            "date": 1781078820337,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-06-10.log",
+            "hash": "dbdd8ce1d06f44512410ed1b6c74647de0831eb0addb01e4d9d62919da680d11"
         },
         {
-            "date": 1772177853560,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-02-27.log",
-            "hash": "42e938828f4037279485db5bc44a37431673763c638cce2ed5f1f2a04cf9aa48"
-        },
-        {
-            "date": 1772266611463,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-02-28.log",
-            "hash": "32b77626d378f12ae29a5c33c03625016af790e1c169edab0d8cc4d810f6acb5"
-        },
-        {
-            "date": 1774680405427,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-03-28.log",
-            "hash": "3643359bc110b5203d01e556e5f6fc686a718739aca98518de8659f4022d5b58"
+            "date": 1781265418863,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-06-12.log",
+            "hash": "88687eafcee53afafbed7950022b4d1a89c4948239e010864f945decc03aa2de"
         }
     ],
     "hashType": "sha256"

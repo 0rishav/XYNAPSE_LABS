@@ -1,0 +1,6 @@
+{"level":"info","message":"[TokenRotated] RID: e7e352ef-e375-4863-b381-8ba61b8bc22a - User: tetoxo3534@smkanba.com - NewSession: 6a2c531a4ad5dedb3c275281","service":"identity-service","timestamp":"2026-06-12T18:42:34.897Z"}
+{"level":"info","message":"[096b0599-3ac6-4004-8ad1-9bdbe0464194] Internal Service: Fetching user batch for 1 IDs","service":"identity-service","timestamp":"2026-06-12T18:42:37.599Z"}
+{"level":"info","message":"[096b0599-3ac6-4004-8ad1-9bdbe0464194] Internal Service: Successfully found 1 users","service":"identity-service","timestamp":"2026-06-12T18:42:37.629Z"}
+{"level":"info","message":"[dffa9891-2f9a-4c7f-b4ce-8d12b21b9de0] Internal Service: Fetching user batch for 1 IDs","service":"identity-service","timestamp":"2026-06-12T18:42:37.694Z"}
+{"level":"info","message":"[dffa9891-2f9a-4c7f-b4ce-8d12b21b9de0] Internal Service: Successfully found 1 users","service":"identity-service","timestamp":"2026-06-12T18:42:37.724Z"}
+{"level":"info","message":"[TokenRotated] RID: 9ebe3461-cf96-43a1-ad2a-e4cc332ee914 - User: tetoxo3534@smkanba.com - NewSession: 6a2c57bb4ad5dedb3c27528b","service":"identity-service","timestamp":"2026-06-12T19:02:19.272Z"}

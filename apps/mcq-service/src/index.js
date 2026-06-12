@@ -9,29 +9,19 @@ import swaggerUi from "swagger-ui-express";
 import { connectDB } from "./config/db.js";
 import { ErrorMiddleware } from "../../../packages/common/src/middleware/error.js";
 import { swaggerSpec } from "../../../packages/common/src/infra/swagger.js";
-import projectRouter from "./routes/project.js";
-import introductionRouter from "./routes/introduction.js";
-import internshipRouter from "./routes/internship.js";
-import labRouter from "./routes/lab.js";
-import faqRouter from "./routes/faq.js";
-import labSectionRouter from "./routes/labSection.js";
-import courseRouter from "./routes/courses.js";
-import courseIntroRouter from "./routes/courseIntro.js";
-import categoryRouter from "./routes/category.js";
-import problemRouter from "./routes/problem.js";
-import chapterRouter from "./routes/chapters.js";
-import contentRouter from "./routes/content.js";
-import reviewRouter from "./routes/reviewRoute.js";
+import mcqPaperRouter from "./routes/mcqPaper.js";
+import mcqQuestionRouter from "./routes/mcqQuestion.js";
+import mcqSubmissionRouter from "./routes/mcqSubmission.js";
+import { publishAllQuestions, seedDatabase } from "./constants/seed.js";
+// import mcqRouter from "./routes/mcq.js";
 
-dotenv.config({ path: path.resolve("./.env") });
-
-// Uske baad root env bhi load kar lo
 dotenv.config({ path: path.resolve("../../.env") });
 console.log("App starting...");
 
 const app = express();
 const server = http.createServer(app);
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.MCQ_PORT || 5001;
+const ENVIRONMENT = process.env.NODE_ENV;
 
 const startServer = async () => {
   try {
@@ -75,20 +65,23 @@ const startServer = async () => {
 
     // Your existing routers
 
-    app.use("/api/v1/project", projectRouter);
-    // app.use("/api/v1/favorite", favoriteRouter);
-    app.use("/api/v1/introduction", introductionRouter);
-    app.use("/api/v1/internship", internshipRouter);
-    app.use("/api/v1/lab", labRouter);
-    app.use("/api/v1/faq", faqRouter);
-    app.use("/api/v1/labsection", labSectionRouter);
-    app.use("/api/v1/courseIntro", courseIntroRouter);
-    app.use("/api/v1/course", courseRouter);
-    app.use("/api/v1/category", categoryRouter);
-    app.use("/api/v1/problem", problemRouter);
-    app.use("/api/v1/chapters", chapterRouter);
-    app.use("/api/v1/content", contentRouter);
-    app.use("/api/v1/review", reviewRouter);
+    app.use("/api/v1/mcqPaper", mcqPaperRouter);
+    app.use("/api/v1/mcqQuestion", mcqQuestionRouter);
+    app.use("/api/v1/mcqSubmission", mcqSubmissionRouter);
+
+    // process.on("uncaughtException", (err) => {
+    //   console.error("FATAL ERROR: Uncaught Exception! Shutting down...");
+    //   console.error(err.name, err.message);
+    //   process.exit(1); // Exit with failure
+    // });
+
+    // process.on("unhandledRejection", (err) => {
+    //   console.error(
+    //     "FATAL ERROR: Unhandled Promise Rejection! Shutting down...",
+    //   );
+    //   console.error(err.name, err.message);
+    //   process.exit(1);
+    // });
 
     // 404 handler
     app.all("*", (req, res, next) => {
@@ -100,7 +93,8 @@ const startServer = async () => {
     app.use(ErrorMiddleware);
 
     server.listen(PORT, () => {
-      console.log(`Course Server is running on PORT ${PORT}`);
+      console.log(`MCQ Server is running on PORT ${PORT}`);
+      console.log(`Environment: ${ENVIRONMENT}`);
     });
   } catch (error) {
     console.error("💥 STARTUP ERROR 💥");

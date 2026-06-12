@@ -322,3 +322,33 @@ export const hardDeleteCourseService = async (id, session, context) => {
   return { id };
 };
 
+export const verifyCourseService = async (courseId) => {
+  try {
+    if (!courseId || !mongoose.Types.ObjectId.isValid(courseId)) {
+        logger.warn(`Invalid Course ID format: ${courseId}`);
+        return false;
+    }
+
+    const course = await Course.findOne({ 
+      _id: courseId, 
+      isDeleted: false 
+    }).lean(); 
+
+    return !!course;
+
+  } catch (error) {
+    logger.error(`Error in verifyCourseService for ID ${courseId}: ${error.message}`);
+    return false;
+  }
+};
+
+export const getCourseByIdService = async (courseId) => {
+  const course = await Course.findOne({ 
+    _id: courseId, 
+    isDeleted: false 
+  })
+  .select("title slug type level shortDescription thumbnail")
+  .lean();
+
+  return course;
+};

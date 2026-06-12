@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\mcq-service\\logs\\.0e39bd66d7229a91f9c4f75c0c0f1e6326c1a075-audit.json",
+    "files": [
+        {
+            "date": 1781069211439,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\mcq-service\\logs\\exceptions-2026-06-10.log",
+            "hash": "052a5a84065533c1a1eff33f7c7956d7bb17ebdace9adb2fa040bd5078534985"
+        },
+        {
+            "date": 1781263843826,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\mcq-service\\logs\\exceptions-2026-06-12.log",
+            "hash": "d94a615f8d0bf7368cc06f65b6bd8c1a12c021bfbb6edbec205db609bdb374f4"
+        },
+        {
+            "date": 1781290237285,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\mcq-service\\logs\\exceptions-2026-06-13.log",
+            "hash": "819d1c89d14f707974c50d2fd5da8b68d9ac2eacd06c155c42be4764896de5f9"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -33,9 +33,16 @@ courseRouter.get(
   isAuthenticated,
   getRecommendations,
 );
-courseRouter.get("/all", attachRequestId,isAuthenticated, hasRole("lab_admin"),  getAllCourses);
+courseRouter.get(
+  "/all",
+  attachRequestId,
+  isAuthenticated,
+  hasRole("lab_admin"),
+  getAllCourses,
+);
 
-courseRouter.get("/public/all", attachRequestId,  getAllCourses);
+courseRouter.get("/public/all", attachRequestId, getAllCourses);
+
 
 courseRouter.get("/s/:slug", attachRequestId, isAuthenticated, getCourseBySlug);
 
@@ -60,6 +67,7 @@ courseRouter.patch(
   validateRequest(updateCourseSchema),
   updateCourse,
 );
+
 
 courseRouter.patch(
   "/:id/publish",

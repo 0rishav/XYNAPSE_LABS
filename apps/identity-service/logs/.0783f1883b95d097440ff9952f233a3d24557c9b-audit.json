@@ -6,24 +6,14 @@
     "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\.0783f1883b95d097440ff9952f233a3d24557c9b-audit.json",
     "files": [
         {
-            "date": 1772088695503,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\rejections-2026-02-26.log",
-            "hash": "47d8f0605a77ab74a6a4e22294c3260b287afe187fa1e465e3bdbb0fbcc6e8cd"
+            "date": 1781068656921,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\rejections-2026-06-10.log",
+            "hash": "0aec5106ce9b84b9f886af0bef7c5608332010ab90c7ef31f0546f58bfc351d0"
         },
         {
-            "date": 1772266649161,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\rejections-2026-02-28.log",
-            "hash": "979bae71d78f1cb350038e3cda523708dd5f0679e2c46c8eb3c969dc7de96884"
-        },
-        {
-            "date": 1774595050660,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\rejections-2026-03-27.log",
-            "hash": "b26f3b9e96e9bf454cf4dc6f3309d82b5293600f472f2f32225e9def532edcb7"
-        },
-        {
-            "date": 1774636849813,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\rejections-2026-03-28.log",
-            "hash": "5300596afca8ecb6c7ac2f1c3eaeb397661d93e2e00c07ff99510ea2cc382b9b"
+            "date": 1781265405528,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\rejections-2026-06-12.log",
+            "hash": "3f030baa38f44c2a7fc5ea2722412ece10ab02e11862fbf12ee93c7feff8290f"
         }
     ],
     "hashType": "sha256"

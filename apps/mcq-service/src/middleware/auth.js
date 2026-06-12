@@ -1,7 +1,7 @@
 import ErrorHandler from "../../../../packages/common/src/errors/ErrorHandler.js";
 import { CatchAsyncError } from "../../../../packages/common/src/middleware/CatchAsyncError.js";
 import jwt from "jsonwebtoken";
-import User from "../../../identity-service/src/models/userModal.js";
+// import User from "../../../identity-service/src/models/userModal.js";
 
 export const isAuthenticated = async (req, res, next) => {
   try {

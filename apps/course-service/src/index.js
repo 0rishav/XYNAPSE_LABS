@@ -25,6 +25,7 @@ import reviewReplyRouter from "./routes/reviewReply.js";
 import courseIntroRouter from "./routes/courseIntro.js";
 import faqRouter from "./routes/courseFaq.js";
 import { seedChapters } from "./utils/insertChapter.js";
+import internalRouter from "./routes/internal.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -94,6 +95,7 @@ const startServer = async () => {
     app.use("/api/v1/reviewReply", reviewReplyRouter);
     app.use("/api/v1/courseIntro", courseIntroRouter);
     app.use("/api/v1/faq", faqRouter);
+    app.use("/api/v1/internal",internalRouter)
 
     app.all("*", (req, res, next) => {
       const err = new Error(`Route ${req.originalUrl} not found`);

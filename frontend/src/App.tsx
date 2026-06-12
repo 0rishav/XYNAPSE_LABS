@@ -13,6 +13,7 @@ import Landing from "./pages/landing/Landing";
 import AllCoursesPage from "./pages/courses/AllCoursesPage";
 import CourseDetailPage from "./pages/courses/CourseDetailPage";
 import LearningPage from "./pages/courses/LearningPage";
+import McqQuestion from "./pages/mcqQuestion/McqQuestion";
 
 const App = () => {
   return (
@@ -44,6 +45,10 @@ const App = () => {
             <Route
               path="/courses/:categorySlug/:courseSlug"
               element={<CourseDetailPage />}
+            />
+            <Route
+              path="/mcq/attempt/:paperId"
+              element={<McqQuestion />}
             />
 
             {/* 404 Page (Optional) */}

@@ -1,6 +1,5 @@
 import express from "express";
 
-import { isAuthenticated } from "../middleware/auth.js";
 import {
   createMCQSubmission,
   deleteMCQSubmission,
@@ -16,44 +15,55 @@ import {
   reviewMCQSubmission,
   updateMCQSubmissionStatus,
 } from "../controllers/mcqSubmission.js";
+import { isAuthenticated } from "../../../../packages/common/src/middleware/auth.js";
 
 const mcqSubmissionRouter = express.Router();
 
 mcqSubmissionRouter.post("/create", isAuthenticated, createMCQSubmission);
+
 mcqSubmissionRouter.get("/my", isAuthenticated, getMyMCQSubmissions);
+
 mcqSubmissionRouter.get("/my/:id", isAuthenticated, getMCQSubmissionById);
+
 mcqSubmissionRouter.delete("/my/:id", isAuthenticated, deleteMCQSubmission);
+
 mcqSubmissionRouter.put(
   "/evaluate/:id",
   isAuthenticated,
-  evaluateMCQSubmission
+  evaluateMCQSubmission,
 );
+
 mcqSubmissionRouter.put(
   "/finalize/:id",
   isAuthenticated,
-  finalizeMCQSubmission
+  finalizeMCQSubmission,
 );
+
 mcqSubmissionRouter.get("/review/:id", isAuthenticated, reviewMCQSubmission);
 
 //  Stats
 mcqSubmissionRouter.get("/stats/user", isAuthenticated, getUserMCQStats);
+
 mcqSubmissionRouter.get("/stats/lab/:labId", isAuthenticated, getLabMCQStats);
+
 mcqSubmissionRouter.get(
   "/stats/question/:questionId",
   isAuthenticated,
-  getQuestionMCQStats
+  getQuestionMCQStats,
 );
 
 mcqSubmissionRouter.get("/all", isAuthenticated, getAllMCQSubmissions);
+
 mcqSubmissionRouter.delete(
   "/hard-delete/:id",
   isAuthenticated,
-  hardDeleteMCQSubmission
+  hardDeleteMCQSubmission,
 );
+
 mcqSubmissionRouter.put(
   "/status/:id",
   isAuthenticated,
-  updateMCQSubmissionStatus
+  updateMCQSubmissionStatus,
 );
 // ye naya add hua h
 

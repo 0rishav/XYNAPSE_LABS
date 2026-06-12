@@ -48,3 +48,11 @@ export const courseProxy = createProxyMiddleware({
     return req.originalUrl; 
   },
 });
+
+export const mcqProxy = createProxyMiddleware({
+  ...proxyOptions,
+  target: config.services.mcq,
+  pathRewrite: (path, req) => {
+    return req.originalUrl;
+  },
+});

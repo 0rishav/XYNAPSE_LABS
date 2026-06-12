@@ -1,0 +1,54 @@
+{"level":"info","message":"[CategoriesFetched] RID: 2af48281-8264-4bb6-8063-6c660d054d2e - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:07.264Z"}
+{"level":"info","message":"[CategoriesFetched] RID: cdbfd597-4a83-45fe-8dc9-5ee6b4eea83d - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:07.443Z"}
+{"level":"info","message":"[CategoriesFetched] RID: 4907b4ec-4859-4db9-9529-8958e53b47e8 - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:34.091Z"}
+{"level":"info","message":"[CategoriesFetched] RID: 26e34bb6-ec83-4680-914e-006635ea9fa3 - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:34.146Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: d0e7da6d-b16c-4f86-9437-220b2c3ce7d6 - Count: 8","service":"course-service","timestamp":"2026-06-10T08:07:34.150Z"}
+{"level":"info","message":"[CategoriesFetched] RID: 5793e865-aa2b-401e-9a6c-6ddb6cd2fcc7 - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:34.195Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: 4769f3e4-6ff4-4a2e-92b8-6fd410e61964 - Count: 8","service":"course-service","timestamp":"2026-06-10T08:07:34.263Z"}
+{"level":"info","message":"[CategoriesFetched] RID: d3783aee-6073-4ae1-bbcb-9042f0e8b069 - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:34.266Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: 39106047-6310-41d5-9009-cd66b839b799 - Count: 0","service":"course-service","timestamp":"2026-06-10T08:07:54.669Z"}
+{"level":"info","message":"[CategoriesFetched] RID: 2ecc462f-4e1e-401c-ab53-42a5a9936465 - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:54.674Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: 19960cc5-5fd7-4019-b910-0efdbba4935e - Count: 0","service":"course-service","timestamp":"2026-06-10T08:07:54.747Z"}
+{"level":"info","message":"[CategoriesFetched] RID: d447fc06-d3db-4e64-8b5d-8e1ec64252fc - Count: 6","service":"course-service","timestamp":"2026-06-10T08:07:54.750Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: 1ac728a1-5baa-472e-b046-5090071d8e9b - Count: 4","service":"course-service","timestamp":"2026-06-10T08:07:58.643Z"}
+{"level":"info","message":"[b8bacaa8-882d-4e08-ad68-4b0b0acfdf4d] Controller: Fetching reviews for Course: 69c793c6ac0488fe6c376c0d","service":"course-service","timestamp":"2026-06-10T08:08:01.899Z"}
+{"level":"info","message":"[b8bacaa8-882d-4e08-ad68-4b0b0acfdf4d] Service: Fetching reviews for Course: 69c793c6ac0488fe6c376c0d | Page: 1 | Sort: newest","service":"course-service","timestamp":"2026-06-10T08:08:01.900Z"}
+{"level":"info","message":"[f07c8075-e69c-4312-9f38-0b9c2253957c] Controller: Fetching Course Intro for Course: 69c793c6ac0488fe6c376c0d","service":"course-service","timestamp":"2026-06-10T08:08:01.903Z"}
+{"level":"info","message":"[a8b5d50f-11b2-48a9-9756-9248191e6b3a] Service: Fetching all chapters for Course: 69c793c6ac0488fe6c376c0d","service":"course-service","timestamp":"2026-06-10T08:08:01.908Z"}
+{"level":"info","message":"[0b82c05e-6759-4f04-a5f3-ff960237eda1] Controller: Fetching Course Intro for Course: 69c793c6ac0488fe6c376c0d","service":"course-service","timestamp":"2026-06-10T08:08:01.962Z"}
+{"level":"info","message":"[3435c53b-0f99-4726-b6b1-151a2d09bfd4] Service: Fetching all chapters for Course: 69c793c6ac0488fe6c376c0d","service":"course-service","timestamp":"2026-06-10T08:08:01.965Z"}
+{"level":"info","message":"[b8bacaa8-882d-4e08-ad68-4b0b0acfdf4d] Service: Successfully enriched 1 reviews with user data","service":"course-service","timestamp":"2026-06-10T08:08:02.033Z"}
+{"level":"info","message":"[fede109c-34ac-40ed-8eba-93f813bb25ed] Controller: Fetching reviews for Course: 69c793c6ac0488fe6c376c0d","service":"course-service","timestamp":"2026-06-10T08:08:02.042Z"}
+{"level":"info","message":"[fede109c-34ac-40ed-8eba-93f813bb25ed] Service: Fetching reviews for Course: 69c793c6ac0488fe6c376c0d | Page: 1 | Sort: newest","service":"course-service","timestamp":"2026-06-10T08:08:02.043Z"}
+{"level":"info","message":"[fede109c-34ac-40ed-8eba-93f813bb25ed] Service: Successfully enriched 1 reviews with user data","service":"course-service","timestamp":"2026-06-10T08:08:02.198Z"}
+{"level":"info","message":"[7b5f06bb-504c-4bdc-84aa-c29363368019] Service: Fetching contents for Chapter: 69c7df79f16cf0e2c5ae1ce3","service":"course-service","timestamp":"2026-06-10T08:08:18.511Z"}
+{"level":"info","message":"[e7396a5e-4ecf-49ec-b3e2-0fe580374b7e] Service: Fetching contents for Chapter: 69c7df79f16cf0e2c5ae1ce4","service":"course-service","timestamp":"2026-06-10T08:08:21.734Z"}
+{"level":"info","message":"[d0706aa5-48a7-4836-9509-e7d0d5933d87] Service: Fetching contents for Chapter: 69c7df79f16cf0e2c5ae1ce5","service":"course-service","timestamp":"2026-06-10T08:08:23.735Z"}
+{"level":"info","message":"[31714e93-11ca-41ed-a712-cc183f588ba4] Service: Fetching contents for Chapter: 69c7df79f16cf0e2c5ae1ce6","service":"course-service","timestamp":"2026-06-10T08:08:25.414Z"}
+{"level":"info","message":"[CategoriesFetched] RID: f575142c-d121-4887-bcab-c6ca89eccb3c - Count: 6","service":"course-service","timestamp":"2026-06-10T08:08:29.154Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: 3424831b-9131-44e5-8922-8ffd83f0c5fb - Count: 4","service":"course-service","timestamp":"2026-06-10T08:08:29.202Z"}
+{"level":"info","message":"[CategoriesFetched] RID: 92d8459e-d209-4ad5-8854-2b1d944ba8f6 - Count: 6","service":"course-service","timestamp":"2026-06-10T08:08:29.211Z"}
+{"level":"info","message":"[AllCoursesFetched] RID: a0b13e77-9522-4ba2-aa34-bc8aedbbf594 - Count: 4","service":"course-service","timestamp":"2026-06-10T08:08:29.357Z"}
+{"level":"info","message":"[beb78c22-0550-4c59-80a3-dc3c41014e29] Controller: Fetching reviews for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T08:08:31.710Z"}
+{"level":"info","message":"[beb78c22-0550-4c59-80a3-dc3c41014e29] Service: Fetching reviews for Course: 69c79314ac0488fe6c376c05 | Page: 1 | Sort: newest","service":"course-service","timestamp":"2026-06-10T08:08:31.711Z"}
+{"level":"info","message":"[34c93918-af88-40ee-9b74-443426a8f6c2] Controller: Fetching Course Intro for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T08:08:31.714Z"}
+{"level":"info","message":"[d50d2017-986b-4ee8-a762-bcad7379f973] Service: Fetching all chapters for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T08:08:31.717Z"}
+{"level":"info","message":"[49e03eb0-665f-4e2a-9b66-56eef60fcaac] Controller: Fetching Course Intro for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T08:08:31.792Z"}
+{"level":"info","message":"[f9415f33-eab6-479a-b07a-d2d1ab57eac3] Service: Fetching all chapters for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T08:08:31.825Z"}
+{"level":"info","message":"[beb78c22-0550-4c59-80a3-dc3c41014e29] Service: Successfully enriched 1 reviews with user data","service":"course-service","timestamp":"2026-06-10T08:08:31.848Z"}
+{"level":"info","message":"[912ec14f-71e1-4452-b89e-68adfc6a08e8] Controller: Fetching reviews for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T08:08:31.853Z"}
+{"level":"info","message":"[912ec14f-71e1-4452-b89e-68adfc6a08e8] Service: Fetching reviews for Course: 69c79314ac0488fe6c376c05 | Page: 1 | Sort: newest","service":"course-service","timestamp":"2026-06-10T08:08:31.853Z"}
+{"level":"info","message":"[912ec14f-71e1-4452-b89e-68adfc6a08e8] Service: Successfully enriched 1 reviews with user data","service":"course-service","timestamp":"2026-06-10T08:08:32.021Z"}
+{"level":"info","message":"[c02ab8aa-83dd-47a7-98fe-6577c5355f5a] Service: Fetching contents for Chapter: 69c7e03a838d47af1a10cbcc","service":"course-service","timestamp":"2026-06-10T08:08:33.444Z"}
+{"level":"info","message":"[5c6204e7-21df-4e6c-b185-a8983e5ad4cb] Controller: Fetching reviews for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T12:51:19.308Z"}
+{"level":"info","message":"[5c6204e7-21df-4e6c-b185-a8983e5ad4cb] Service: Fetching reviews for Course: 69c79314ac0488fe6c376c05 | Page: 1 | Sort: newest","service":"course-service","timestamp":"2026-06-10T12:51:19.310Z"}
+{"level":"info","message":"[2d58154c-7d4d-44f1-826e-a942eddc5b19] Controller: Fetching Course Intro for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T12:51:19.313Z"}
+{"level":"info","message":"[a4095c11-63aa-4680-9634-c3a3ab12a12c] Service: Fetching all chapters for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T12:51:19.316Z"}
+{"level":"info","message":"[CategoriesFetched] RID: d9d97efa-d389-41c2-a1dd-1863279fa346 - Count: 6","service":"course-service","timestamp":"2026-06-10T12:51:19.368Z"}
+{"level":"info","message":"[04735e39-0bc2-4375-be35-33f5979105e2] Controller: Fetching Course Intro for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T12:51:19.391Z"}
+{"level":"info","message":"[CategoriesFetched] RID: 2c941a71-1d64-4b52-95ce-d99297e29998 - Count: 6","service":"course-service","timestamp":"2026-06-10T12:51:19.684Z"}
+{"level":"info","message":"[5c6204e7-21df-4e6c-b185-a8983e5ad4cb] Service: Successfully enriched 1 reviews with user data","service":"course-service","timestamp":"2026-06-10T12:51:19.689Z"}
+{"level":"info","message":"[c7807c8f-f93e-471d-92b1-27a91c2b3d6a] Service: Fetching all chapters for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T12:51:19.694Z"}
+{"level":"info","message":"[9da24544-9a9c-40e5-889a-055c4e356c1c] Controller: Fetching reviews for Course: 69c79314ac0488fe6c376c05","service":"course-service","timestamp":"2026-06-10T12:51:19.697Z"}
+{"level":"info","message":"[9da24544-9a9c-40e5-889a-055c4e356c1c] Service: Fetching reviews for Course: 69c79314ac0488fe6c376c05 | Page: 1 | Sort: newest","service":"course-service","timestamp":"2026-06-10T12:51:19.698Z"}
+{"level":"info","message":"[9da24544-9a9c-40e5-889a-055c4e356c1c] Service: Successfully enriched 1 reviews with user data","service":"course-service","timestamp":"2026-06-10T12:51:19.983Z"}

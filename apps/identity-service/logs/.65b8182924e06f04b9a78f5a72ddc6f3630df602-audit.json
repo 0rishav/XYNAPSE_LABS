@@ -6,29 +6,14 @@
     "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\.65b8182924e06f04b9a78f5a72ddc6f3630df602-audit.json",
     "files": [
         {
-            "date": 1772088695451,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-02-26.log",
-            "hash": "4874d20a73c05e5e0f8b834f642bfbcab1ede2e58949ed27e6019d514367c1a9"
+            "date": 1781068656896,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-06-10.log",
+            "hash": "7c03eec403a393d5be2a7b373b9316b4dded2e9ad86eea24bbcda70a22a24dad"
         },
         {
-            "date": 1772196326377,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-02-27.log",
-            "hash": "f565293a44637b42dd31e5c2b9beb4e727f8d013f5d1b122d46f4dfcaafffddb"
-        },
-        {
-            "date": 1772266649130,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-02-28.log",
-            "hash": "8aac8e0ba3cee219806b21df5495ca6fce759eeb11c3ae732865463bbfa0d869"
-        },
-        {
-            "date": 1774595050626,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-03-27.log",
-            "hash": "197619fb3c6308d71a1001a588ddc47932ac5564c9fbeb580e0044744f28a8d1"
-        },
-        {
-            "date": 1774636783250,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-03-28.log",
-            "hash": "34177543f87a95946a3eff50a222de2df89507d0342431d313a076eca242cf74"
+            "date": 1781265405513,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\identity-service\\logs\\error-2026-06-12.log",
+            "hash": "1b02086ba44da3c23ca6dd1d7745f9b9c02e42d3575e78a250f7fb1a5d06d307"
         }
     ],
     "hashType": "sha256"

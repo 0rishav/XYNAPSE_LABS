@@ -2,6 +2,7 @@ import { HTTP_STATUS } from "../../../../packages/common/src/constants/httpStatu
 import { CatchAsyncError } from "../../../../packages/common/src/middleware/CatchAsyncError.js";
 import logger from "../../../../packages/common/src/utils/logger.js";
 import { sendResponse } from "../../../../packages/common/src/utils/sendResponse.js";
+import Chapter from "../models/chapterModel.js";
 import {
   createChapterService,
   getChapterByIdService,
@@ -113,4 +114,17 @@ export const hardDeleteChapter = CatchAsyncError(async (req, res, next) => {
   const result = await hardDeleteChapterService(id, requestId);
 
   return sendResponse(res, HTTP_STATUS.OK, result.message);
+});
+
+export const verifyChapterInternal = CatchAsyncError(async (req, res, next) => {
+  const { id } = req.params;
+
+  const exists = await Chapter.exists({ _id: id, isDeleted: false });
+
+  return sendResponse(
+    res,
+    HTTP_STATUS.OK,
+    "Verification successful",
+    { exists: !!exists }
+  );
 });

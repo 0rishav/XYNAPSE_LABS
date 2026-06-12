@@ -6,9 +6,19 @@
     "auditLog": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\.46531f6d00db73ff9a0c54b977670d4cc8d1403c-audit.json",
     "files": [
         {
-            "date": 1774680405399,
-            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\app-2026-03-28.log",
-            "hash": "081830f873bfda19046463ea5fbb0b2845af07f451ace90ce592fd792031ae2e"
+            "date": 1781078820294,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\app-2026-06-10.log",
+            "hash": "0e83b7fbffb0145181ad13c7b2f948d206c99cb6ee93ebb2db0810a6f9ff3489"
+        },
+        {
+            "date": 1781265418839,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\app-2026-06-12.log",
+            "hash": "3b1cefd1ecc6cd10fe595a95cdc70a7e5d7f80ea1e219a2c0e3f91644537d419"
+        },
+        {
+            "date": 1781289755211,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\app-2026-06-13.log",
+            "hash": "09ee3172c1158201754f188e6c89cd6161a44a5a979abe4327f3206cdaf6fb13"
         }
     ],
     "hashType": "sha256"

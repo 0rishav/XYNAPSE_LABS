@@ -7,6 +7,7 @@ import { sendResponse } from "../../../../packages/common/src/utils/sendResponse
 import {
   createCourseService,
   getAllCoursesService,
+  getCourseByIdService,
   getRecommendationsService,
   getSingleCourseService,
   hardDeleteCourseService,
@@ -15,8 +16,10 @@ import {
   softDeleteCourseService,
   toggleCourseStatusService,
   updateCourseService,
+  verifyCourseService,
 } from "../services/course.service.js";
 import { getPagination } from "../../../../packages/common/src/utils/paginationHelper.js";
+import Course from "../models/courseModel.js";
 
 export const createCourse = CatchAsyncError(async (req, res, next) => {
   const session = await mongoose.startSession();
@@ -313,4 +316,38 @@ export const hardDeleteCourse = CatchAsyncError(async (req, res, next) => {
   } finally {
     session.endSession();
   }
+});
+
+export const verifyCourse = CatchAsyncError(async (req, res, next) => {
+  const { courseId } = req.params;
+
+  if (!courseId) {
+    return next(
+      new ErrorHandler("Course ID is missing", HTTP_STATUS.BAD_REQUEST),
+    );
+  }
+
+  const exists = await verifyCourseService(courseId);
+
+  return sendResponse(res, HTTP_STATUS.OK, "Course verification successful", {
+    exists,
+  });
+});
+
+export const getCourseVerification = CatchAsyncError(async (req, res, next) => {
+  const { courseId } = req.params;
+
+  if (!courseId) {
+    return next(
+      new ErrorHandler("Course ID required", HTTP_STATUS.BAD_REQUEST),
+    );
+  }
+
+  const course = await getCourseByIdService(courseId);
+
+  if (!course) {
+    return next(new ErrorHandler("Course not found", HTTP_STATUS.NOT_FOUND));
+  }
+
+  return sendResponse(res, HTTP_STATUS.OK, "Course data fetched", course);
 });

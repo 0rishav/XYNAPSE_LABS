@@ -1,18 +1,12 @@
-import ErrorHandler from "./ErrorHandler.js";
-import { sanitizeObject } from "./sanitizeInput.js";
+import ErrorHandler from "../errors/ErrorHandler.js";
 
 export const validateMCQPayload = (body) => {
-  const schema = {
-    title: "string",
-    description: "string",
-    difficulty: "string",
-    accessLevel: "string",
-    explanation: "string",
-  };
-
-  const sanitizedBody = sanitizeObject(body, schema);
-
   const {
+    title,
+    description,
+    difficulty,
+    accessLevel,
+    explanation,
     tags,
     options,
     multipleCorrect,
@@ -24,11 +18,12 @@ export const validateMCQPayload = (body) => {
     customFields,
   } = body;
 
-  // validations
-  if (!sanitizedBody.title || sanitizedBody.title.length < 3) {
+  // 1. Basic Field Validations
+  if (!title || title.trim().length < 3) {
     throw new ErrorHandler("Title is required (min 3 chars)", 400);
   }
 
+  // 2. Options Logic
   if (!Array.isArray(options) || options.length < 2) {
     throw new ErrorHandler("MCQ must have at least 2 options", 400);
   }
@@ -46,6 +41,7 @@ export const validateMCQPayload = (body) => {
     throw new ErrorHandler("At least one option must be correct", 400);
   }
 
+  // 3. Logic & Type Validations
   if (typeof multipleCorrect !== "boolean") {
     throw new ErrorHandler("multipleCorrect must be true or false", 400);
   }
@@ -61,25 +57,16 @@ export const validateMCQPayload = (body) => {
     throw new ErrorHandler("negativeMarks must be a non-negative number", 400);
   }
 
-  if (
-    !["easy", "medium", "hard"].includes(
-      sanitizedBody.difficulty?.toLowerCase(),
-    )
-  ) {
+  // 4. Enum Validations
+  if (!["easy", "medium", "hard"].includes(difficulty?.toLowerCase())) {
     throw new ErrorHandler("Difficulty must be easy, medium, or hard", 400);
   }
 
-  if (
-    !["free", "standard", "premium"].includes(
-      sanitizedBody.accessLevel?.toLowerCase(),
-    )
-  ) {
-    throw new ErrorHandler(
-      "Access level must be free, standard, or premium",
-      400,
-    );
+  if (!["free", "standard", "premium"].includes(accessLevel?.toLowerCase())) {
+    throw new ErrorHandler("Access level must be free, standard, or premium", 400);
   }
 
+  // 5. Relations & Metadata
   if (!labId) {
     throw new ErrorHandler("labId is required", 400);
   }
@@ -92,8 +79,13 @@ export const validateMCQPayload = (body) => {
     throw new ErrorHandler("referenceLinks must be an array", 400);
   }
 
+  // Ab sanitizedBody return karne ki jagah seedha structured body return kar rahe hain
   return {
-    sanitizedBody,
+    title,
+    description,
+    difficulty,
+    accessLevel,
+    explanation,
     tags,
     options,
     multipleCorrect,

@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 
 import { config } from "./config/index.js";
 import { httpLogger } from "./middlewares/logger.js";
-import { courseProxy, identityProxy } from "./middlewares/proxy.js";
+import { courseProxy, identityProxy, mcqProxy } from "./middlewares/proxy.js";
 import { gatewayAuth } from "./middlewares/auth.js";
 import { handleGatewayError } from "./utils/error-handler.js";
 import healthRouter from "./routes/health.js";
@@ -64,11 +64,15 @@ const courseServicePaths = [
   "/api/v1/faq",
 ];
 
-app.use(
-  courseServicePaths, 
-  gatewayAuth, 
-  courseProxy
-);
+app.use(courseServicePaths, gatewayAuth, courseProxy);
+
+const mcqServicePaths = [
+  "/api/v1/mcqPaper",
+  "/api/v1/mcqQuestion",
+  "/api/v1/mcqSubmission",
+];
+
+app.use(mcqServicePaths, gatewayAuth, mcqProxy);
 
 app.use(handleGatewayError);
 
@@ -77,5 +81,6 @@ app.listen(config.port, () => {
   console.log(`Gateway Service is running on PORT: ${config.port}`);
   console.log(`Identity Service URL: ${config.services.identity}`);
   console.log(`Course Service URL: ${config.services.course}`);
+  console.log(`MCQ Service URL: ${config.services.mcq}`);
   console.log(`Environment: ${config.env}\n`);
 });

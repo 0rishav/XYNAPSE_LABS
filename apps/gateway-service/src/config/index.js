@@ -19,6 +19,7 @@ export const config = {
   services: {
     identity: process.env.IDENTITY_SERVICE_URL || "http://localhost:8001",
     course: process.env.COURSE_SERVICE_URL || "http://localhost:8002",
+    mcq: process.env.MCQ_SERVICE_URL || "http://localhost:8003",
     payment: process.env.PAYMENT_SERVICE_URL || "http://localhost:8003",
     submission: process.env.SUBMISSION_SERVICE_URL || "http://localhost:8004",
     judge: process.env.JUDGE_SERVICE_URL || "http://localhost:8005",
