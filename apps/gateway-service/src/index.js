@@ -12,7 +12,14 @@ import healthRouter from "./routes/health.js";
 const app = express();
 
 app.use(httpLogger);
-app.use(cors({ origin: config.cors.origin, credentials: true }));
+app.use(cors({ 
+  origin: [
+    'https://lab.xynapsesystems.com', 
+    'https://xynapsesystems.com', 
+    'http://localhost:3000'
+  ], 
+  credentials: true 
+}));
 app.use(cookieParser());
 
 app.use("/health", healthRouter);
