@@ -118,7 +118,7 @@ const StatsSection = () => {
 
               {/* Sub-label for context */}
               <p className="mt-2 text-xs text-slate-400 dark:text-slate-500 font-medium">
-                Verified on Xynapse Mainnet
+                Verified on Upcoding Mainnet
               </p>
             </motion.div>
           ))}

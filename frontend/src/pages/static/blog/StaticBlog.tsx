@@ -19,7 +19,7 @@ const StaticBlog = () => {
                 The Hardened <br /> Micro-Container Protocol.
               </h2>
               <p className="text-lg text-slate-500 dark:text-slate-400 leading-relaxed font-medium max-w-2xl">
-                Every lab session at Xynapse runs in a strictly isolated gVisor runtime. 
+                Every lab session at Upcoding runs in a strictly isolated gVisor runtime. 
                 We don't just provide a terminal; we provide a production-grade sandbox 
                 that mimics bare-metal performance.
               </p>
@@ -63,7 +63,7 @@ const StaticBlog = () => {
           <div className="p-10 rounded-[3rem] bg-slate-50 dark:bg-white/5 border border-slate-200 dark:border-white/10 relative overflow-hidden">
             <h4 className="text-sm font-black dark:text-white mb-4 uppercase tracking-widest">The_Log_Book</h4>
             <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-8">
-              Technical documentations, research papers, and system updates from the Xynapse Engineering team.
+              Technical documentations, research papers, and system updates from the Upcoding Engineering team.
             </p>
             <ul className="space-y-4">
               {['System_Health: 99.9%', 'Nodes_Active: 1,024', 'Protocol: v3.11'].map((stat, i) => (
@@ -82,7 +82,7 @@ const StaticBlog = () => {
             </p>
             <div className="space-y-3">
               <div className="w-full py-4 px-6 bg-white/5 border border-white/10 rounded-2xl text-[10px] font-bold text-slate-500">
-                system@xynapse.sh_
+                system@upcoding.sh_
               </div>
               <button className="w-full py-4 bg-emerald-500 text-slate-900 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-emerald-400 transition-colors">
                 INITIALIZE_SUBSCRIBE

@@ -141,7 +141,7 @@ const ContextNavBar = () => {
             className="h-8 w-8 rounded-lg object-cover border dark:border-white/10"
           />
           <span className="hidden sm:block font-black text-xl tracking-tighter dark:text-white italic">
-            XY<span className="text-emerald-500">NAPSE</span>
+            UP<span className="text-emerald-500">CODING</span>
           </span>
         </div>
 

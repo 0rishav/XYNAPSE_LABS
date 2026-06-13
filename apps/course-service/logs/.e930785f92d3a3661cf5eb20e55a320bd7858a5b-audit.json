@@ -14,6 +14,11 @@
             "date": 1781265418863,
             "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-06-12.log",
             "hash": "88687eafcee53afafbed7950022b4d1a89c4948239e010864f945decc03aa2de"
+        },
+        {
+            "date": 1781350512304,
+            "name": "C:\\all-desktop-project\\xynapse-mono-repo\\apps\\course-service\\logs\\rejections-2026-06-13.log",
+            "hash": "89b96caeafd76c1ea7038fdd6d3d6be0f2b504a69cae77322e6c9147f6bad1c4"
         }
     ],
     "hashType": "sha256"

@@ -63,3 +63,15 @@
 {"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 200 2892 - 420.691 ms","service":"category-service","timestamp":"2026-06-12T19:12:11.470Z"}
 {"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 200 2892 - 175.623 ms","service":"category-service","timestamp":"2026-06-12T19:12:11.647Z"}
 {"level":"info","message":"::1 POST /api/v1/auth/login 200 378 - 941.938 ms","service":"auth-service","timestamp":"2026-06-12T19:57:47.672Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 5.417 ms","service":"category-service","timestamp":"2026-06-13T11:40:11.667Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.709 ms","service":"category-service","timestamp":"2026-06-13T11:40:11.673Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.633 ms","service":"category-service","timestamp":"2026-06-13T11:40:11.675Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.945 ms","service":"category-service","timestamp":"2026-06-13T11:40:11.679Z"}
+{"level":"info","message":"::1 GET /api/v1/course/public/all?page=1&limit=8 401 1306 - 1.184 ms","service":"course-service","timestamp":"2026-06-13T11:40:11.684Z"}
+{"level":"info","message":"::1 GET /api/v1/course/public/all?page=1&limit=8 401 1306 - 0.668 ms","service":"course-service","timestamp":"2026-06-13T11:40:11.687Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.703 ms","service":"category-service","timestamp":"2026-06-13T11:42:39.668Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.471 ms","service":"category-service","timestamp":"2026-06-13T11:42:39.671Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.729 ms","service":"category-service","timestamp":"2026-06-13T11:42:39.674Z"}
+{"level":"info","message":"::1 GET /api/v1/category/public/all?page=1&limit=100 401 1306 - 0.966 ms","service":"category-service","timestamp":"2026-06-13T11:42:39.678Z"}
+{"level":"info","message":"::1 GET /api/v1/course/public/all?page=1&limit=8 401 1306 - 0.995 ms","service":"course-service","timestamp":"2026-06-13T11:42:39.684Z"}
+{"level":"info","message":"::1 GET /api/v1/course/public/all?page=1&limit=8 401 1306 - 0.736 ms","service":"course-service","timestamp":"2026-06-13T11:42:39.687Z"}

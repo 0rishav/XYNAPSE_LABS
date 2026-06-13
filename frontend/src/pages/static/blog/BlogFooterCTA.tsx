@@ -25,7 +25,7 @@ const BlogFooterCTA = () => {
                 <div className="w-3 h-3 rounded-full bg-amber-500/80" />
                 <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
               </div>
-              <p className="text-slate-500">{`guest@xynapse:~# sudo protocol_v4 --initialize`}</p>
+              <p className="text-slate-500">{`guest@upcoding:~# sudo protocol_v4 --initialize`}</p>
               <p className="text-white mt-2 flex gap-2 items-center">
                 <span className="text-emerald-400 font-bold">XYN_INIT_OK:</span>{" "}
                 Simulation Nodes Standing By.{" "}
@@ -77,7 +77,7 @@ const BlogFooterCTA = () => {
             <div className="p-1.5 rounded-md bg-emerald-500/10 text-emerald-500 border border-emerald-500/20">
               <Terminal size={14} />
             </div>
-            &copy; 2026 Xynapse Labs. Core_Systems_Isolated.
+            &copy; 2026 Upcoding Labs. Core_Systems_Isolated.
           </div>
 
           <div className="flex items-center gap-6">

@@ -63,7 +63,7 @@ const HeroSection = () => {
           <motion.p 
             className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-xl font-medium leading-relaxed mb-10 border-l-2 border-slate-200 dark:border-white/10 pl-6"
           >
-            Ditch the tutorials. Enter the Xynapse Sandbox. 
+            Ditch the tutorials. Enter the Upcoding Sandbox. 
             Build production-ready infra and earn your rank in the 
             <span className="text-slate-900 dark:text-white font-bold ml-1">Global Engineering Index.</span>
           </motion.p>
@@ -96,7 +96,7 @@ const HeroSection = () => {
                 <div className="w-3 h-3 rounded-full bg-emerald-500/20 border border-emerald-500/40" />
               </div>
               <div className="text-[10px] font-mono text-slate-400 dark:text-slate-500 tracking-widest uppercase font-bold">
-                Xynapse_Terminal_v4.2
+                Upcoding_Terminal_v4.2
               </div>
             </div>
 

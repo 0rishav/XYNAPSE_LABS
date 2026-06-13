@@ -64,7 +64,7 @@ const GlobalTopBar: React.FC<GlobalTopBarProps> = ({
             />
           </div>
           <span className="font-black text-slate-900 dark:text-white tracking-[0.2em]">
-            XYNAPSE
+            UPCODING
           </span>
         </div>
 

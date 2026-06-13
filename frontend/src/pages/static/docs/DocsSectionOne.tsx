@@ -27,7 +27,7 @@ const DocsSectionOne = () => {
       id: 0,
       title: "Platform Overview",
       subtitle: "The Hyper-Realistic Sandbox",
-      desc: "Xynapse Labs isn't just a learning platform; it's a bare-metal simulation engine. We provide a distributed ecosystem where developers can experiment with high-availability systems, global edge networking, and production-grade architectures without worrying about cloud costs.",
+      desc: "Upcoding Labs isn't just a learning platform; it's a bare-metal simulation engine. We provide a distributed ecosystem where developers can experiment with high-availability systems, global edge networking, and production-grade architectures without worrying about cloud costs.",
       features: [
         "Zero-Latency Linux Terminals",
         "Distributed Node Architecture",
@@ -155,7 +155,7 @@ const DocsSectionOne = () => {
             <div className="relative mb-16">
               <div className="absolute -top-10 -left-10 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl" />
               <h1 className="text-4xl md:text-6xl font-black dark:text-white tracking-tighter mb-6 uppercase">
-                {activeStep === 0 ? "The Xynapse" : menuItems[activeStep]}{" "}
+                {activeStep === 0 ? "The Upcoding" : menuItems[activeStep]}{" "}
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">
                   Protocol Labs

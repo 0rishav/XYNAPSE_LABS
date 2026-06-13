@@ -45,7 +45,7 @@ const BlogHero = () => {
               transition={{ delay: 0.2 }}
               className="text-lg text-slate-500 dark:text-slate-400 max-w-xl leading-relaxed font-medium"
             >
-              Deep dive into how Xynapse Labs manages high-availability clusters
+              Deep dive into how Upcoding Labs manages high-availability clusters
               across 14 global regions with sub-5ms latency protocols.
             </motion.p>
 
@@ -103,7 +103,7 @@ const BlogHero = () => {
                     <p className="text-[10px] font-black text-emerald-400 uppercase tracking-widest">
                       Priority_Node
                     </p>
-                    <p className="text-white font-bold">Xynapse-Alpha-01</p>
+                    <p className="text-white font-bold">Upcoding-Alpha-01</p>
                   </div>
                   <Sparkles className="text-emerald-400" size={20} />
                 </div>

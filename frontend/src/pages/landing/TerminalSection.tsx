@@ -6,7 +6,7 @@ const TerminalSection = () => {
   const [logs, setLogs] = useState<string[]>([]);
 
   const terminalSteps = [
-    "> initializing_xynapse_kernel...",
+    "> initializing_upcoding_kernel...",
     "> establishing_zero_trust_handshake...",
     "> pulling_container_image: alpine-node-v22",
     "> mounting_virtual_volumes...",
@@ -87,7 +87,7 @@ const TerminalSection = () => {
                 <div className="w-3 h-3 rounded-full bg-[#27c93f]" />
               </div>
               <div className="flex items-center gap-2 text-[10px] font-mono text-slate-500 uppercase tracking-widest">
-                <Terminal size={12} /> root@xynapse:~
+                <Terminal size={12} /> root@upcoding:~
               </div>
             </div>
 
@@ -127,7 +127,7 @@ const TerminalSection = () => {
           {/* Floating Code Badge */}
           <div className="absolute -bottom-6 -left-10 bg-white dark:bg-emerald-500 p-4 rounded-xl shadow-xl hidden md:block border border-slate-100 dark:border-none rotate-[-5deg] transition-all group-hover:rotate-0">
             <pre className="text-[10px] font-black dark:text-slate-900 text-emerald-600">
-              {`docker build -t xynapse-v1 .
+              {`docker build -t upcoding-v1 .
 Successfully built a1b2c3d4
 Pushing to edge...`}
             </pre>

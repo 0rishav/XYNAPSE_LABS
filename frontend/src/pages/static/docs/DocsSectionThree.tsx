@@ -43,7 +43,7 @@ const DocsSectionThree = () => {
             GLOBAL_PROTOCOL
           </div>
           <h1 className="text-4xl md:text-5xl font-black dark:text-white tracking-tighter mb-4">
-            THE <span className="text-emerald-500 italic">XYNAPSE</span> RANKING
+            THE <span className="text-emerald-500 italic">UPCODING</span> RANKING
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-lg max-w-2xl leading-relaxed">
             Every line of code you push, every lab you secure, moves you up the{" "}
