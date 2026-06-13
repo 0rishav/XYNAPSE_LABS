@@ -1,0 +1,33 @@
+
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle Background -->
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#333" />
+      <stop offset="100%" style="stop-color:#000" />
+    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00eaff; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b2ff; stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d6bff; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7f2fff; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Border Circle -->
+  <circle cx="150" cy="150" r="105" fill="#666" />
+  <!-- Inner Circle -->
+  <circle cx="150" cy="150" r="100" fill="url(#grad1)" />
+
+  <!-- Text 'Upco' in front of the circle -->
+  <text x="85" y="170" font-family="Arial, sans-serif" font-size="65" font-weight="bold" fill="url(#grad2)">
+    Upco
+  </text>
+
+  <!-- Text 'ding' continuing outside -->
+  <text x="255" y="170" font-family="Arial, sans-serif" font-size="65" font-weight="bold" fill="url(#grad3)">
+    ding
+  </text>
+</svg>

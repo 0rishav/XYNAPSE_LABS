@@ -136,9 +136,9 @@ const ContextNavBar = () => {
 
         <div className="flex items-center gap-2 mr-2">
           <img
-            src="/images/xynapse-labs.jpg"
+            src="/images/upcoding_logo.svg"
             alt="Logo"
-            className="h-8 w-8 rounded-lg object-cover border dark:border-white/10"
+            className="h-8 w-8 rounded-lg object-cover border"
           />
           <span className="hidden sm:block font-black text-xl tracking-tighter dark:text-white italic">
             UP<span className="text-emerald-500">CODING</span>
